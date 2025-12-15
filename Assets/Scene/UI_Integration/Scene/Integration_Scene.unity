@@ -67,9 +67,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 0
@@ -2932,7 +2929,6 @@ GameObject:
   - component: {fileID: 1123543443}
   - component: {fileID: 1123543442}
   - component: {fileID: 1123543441}
-  - component: {fileID: 1123543440}
   m_Layer: 0
   m_Name: VideoPlayer (3)
   m_TagString: Untagged
@@ -2955,18 +2951,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1740877574}
   m_LocalEulerAnglesHint: {x: 180, y: 180, z: 0}
---- !u!114 &1123543440
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1123543438}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67c8c2e63e6ceed4487ea24ab3d1118e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &1123543441
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3025,7 +3009,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1123543438}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: ae3c0c23632e9cf49b05bb6cd83692ed, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -3039,14 +3023,12 @@ VideoPlayer:
   m_TimeUpdateMode: 2
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 0
+  m_TargetAudioSources: []
+  m_DirectAudioVolumes: []
   m_Url: 
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
-  m_ControlledAudioTrackCount: 1
+  m_EnabledAudioTracks: 
+  m_DirectAudioMutes: 
+  m_ControlledAudioTrackCount: 0
   m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 1
@@ -3159,7 +3141,6 @@ GameObject:
   - component: {fileID: 1211829051}
   - component: {fileID: 1211829050}
   - component: {fileID: 1211829049}
-  - component: {fileID: 1211829048}
   m_Layer: 0
   m_Name: VideoPlayer (4)
   m_TagString: Untagged
@@ -3182,18 +3163,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 909986125}
   m_LocalEulerAnglesHint: {x: 180, y: 180, z: 0}
---- !u!114 &1211829048
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1211829046}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67c8c2e63e6ceed4487ea24ab3d1118e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &1211829049
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3252,7 +3221,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1211829046}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: 0940f15e72b27d741bca72fe3f80e249, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -3266,14 +3235,12 @@ VideoPlayer:
   m_TimeUpdateMode: 2
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 0
+  m_TargetAudioSources: []
+  m_DirectAudioVolumes: []
   m_Url: 
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
-  m_ControlledAudioTrackCount: 1
+  m_EnabledAudioTracks: 
+  m_DirectAudioMutes: 
+  m_ControlledAudioTrackCount: 0
   m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 1
@@ -4162,7 +4129,6 @@ GameObject:
   - component: {fileID: 1584184273}
   - component: {fileID: 1584184272}
   - component: {fileID: 1584184271}
-  - component: {fileID: 1584184270}
   m_Layer: 0
   m_Name: VideoPlayer (1)
   m_TagString: Untagged
@@ -4185,18 +4151,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1945290184}
   m_LocalEulerAnglesHint: {x: 180, y: 180, z: 0}
---- !u!114 &1584184270
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1584184268}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67c8c2e63e6ceed4487ea24ab3d1118e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &1584184271
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4255,7 +4209,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1584184268}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: ad34d8b5b862ed74f8ecf316446909d6, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -4269,14 +4223,12 @@ VideoPlayer:
   m_TimeUpdateMode: 2
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 0
+  m_TargetAudioSources: []
+  m_DirectAudioVolumes: []
   m_Url: 
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
-  m_ControlledAudioTrackCount: 1
+  m_EnabledAudioTracks: 
+  m_DirectAudioMutes: 
+  m_ControlledAudioTrackCount: 0
   m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 1
@@ -4348,7 +4300,6 @@ GameObject:
   - component: {fileID: 1648165107}
   - component: {fileID: 1648165106}
   - component: {fileID: 1648165105}
-  - component: {fileID: 1648165104}
   m_Layer: 0
   m_Name: VideoPlayer (2)
   m_TagString: Untagged
@@ -4371,18 +4322,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1062545487}
   m_LocalEulerAnglesHint: {x: 180, y: 180, z: 0}
---- !u!114 &1648165104
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1648165102}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67c8c2e63e6ceed4487ea24ab3d1118e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &1648165105
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4441,7 +4380,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1648165102}
   m_Enabled: 1
-  m_VideoClip: {fileID: 0}
+  m_VideoClip: {fileID: 32900000, guid: 5f958ff3642ade34bbd6216690ebb53c, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -4455,14 +4394,12 @@ VideoPlayer:
   m_TimeUpdateMode: 2
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
-  m_TargetAudioSources:
-  - {fileID: 0}
-  m_DirectAudioVolumes:
-  - 0
+  m_TargetAudioSources: []
+  m_DirectAudioVolumes: []
   m_Url: 
-  m_EnabledAudioTracks: 01
-  m_DirectAudioMutes: 00
-  m_ControlledAudioTrackCount: 1
+  m_EnabledAudioTracks: 
+  m_DirectAudioMutes: 
+  m_ControlledAudioTrackCount: 0
   m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 1
@@ -5537,7 +5474,7 @@ GameObject:
   - component: {fileID: 2052256630}
   - component: {fileID: 2052256629}
   - component: {fileID: 2052256628}
-  - component: {fileID: 2052256627}
+  - component: {fileID: 2052256631}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -5545,26 +5482,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2052256627
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2052256626}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a160d838ff8b4b4693ac20007e008c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AssetsPPU: 100
-  m_RefResolutionX: 800
-  m_RefResolutionY: 480
-  m_UpscaleRT: 0
-  m_PixelSnapping: 0
-  m_CropFrameX: 0
-  m_CropFrameY: 0
-  m_StretchFill: 0
 --- !u!81 &2052256628
 AudioListener:
   m_ObjectHideFlags: 0
@@ -5639,6 +5556,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2052256631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052256626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fce76124d7af2842a9ebacba3a3539a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2080519921
 GameObject:
   m_ObjectHideFlags: 0
@@ -5915,10 +5844,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 800, y: 480}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3

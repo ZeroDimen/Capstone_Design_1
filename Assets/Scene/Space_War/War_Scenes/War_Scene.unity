@@ -67,9 +67,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 0
@@ -351,15 +348,15 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8082538525796672466, guid: b748f0a4b2500024096097feef633f58, type: 3}
-      propertyPath: hpImg.Array.data[0]
+      propertyPath: 'hpImg.Array.data[0]'
       value: 
       objectReference: {fileID: 1173852}
     - target: {fileID: 8082538525796672466, guid: b748f0a4b2500024096097feef633f58, type: 3}
-      propertyPath: hpImg.Array.data[1]
+      propertyPath: 'hpImg.Array.data[1]'
       value: 
       objectReference: {fileID: 2034229855}
     - target: {fileID: 8082538525796672466, guid: b748f0a4b2500024096097feef633f58, type: 3}
-      propertyPath: hpImg.Array.data[2]
+      propertyPath: 'hpImg.Array.data[2]'
       value: 
       objectReference: {fileID: 1428667495}
     - target: {fileID: 8550120882244633558, guid: b748f0a4b2500024096097feef633f58, type: 3}
@@ -1290,9 +1287,9 @@ GameObject:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
-  - component: {fileID: 519420033}
   - component: {fileID: 519420034}
   - component: {fileID: 519420035}
+  - component: {fileID: 519420036}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1374,26 +1371,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &519420033
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 519420028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a160d838ff8b4b4693ac20007e008c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AssetsPPU: 100
-  m_RefResolutionX: 800
-  m_RefResolutionY: 480
-  m_UpscaleRT: 0
-  m_PixelSnapping: 0
-  m_CropFrameX: 0
-  m_CropFrameY: 0
-  m_StretchFill: 0
 --- !u!45 &519420034
 Skybox:
   m_ObjectHideFlags: 0
@@ -1416,6 +1393,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   skyboxMaterial: {fileID: 2100000, guid: cd8d65e50ff4e3342b4176616399ef97, type: 2}
+--- !u!114 &519420036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fce76124d7af2842a9ebacba3a3539a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &563934584
 GameObject:
   m_ObjectHideFlags: 0

@@ -126,7 +126,6 @@ public class UI_Ranking : MonoBehaviour  // 랭킹에 대한 전반적인 출력
     } 
     internal void Ranking() // 결과를 화면에 출력하는 함수
     {
-        return;
         for (int i = rankingIndex, j = rankingNum; i < result.Length && result.Length != 1 && j < rankingNum + 10; i += 2, j++)
         {
             GameObject Place;

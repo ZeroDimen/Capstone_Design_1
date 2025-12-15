@@ -22,9 +22,9 @@ public class UI_GameText : MonoBehaviour // 텍스트에 대한 전반적인 출
     private int PORT = 4005;
     internal void Game_Text(int Gamenum)
     {
-        // GameName_Text.text = GameName[Gamenum];
-        // Info_Text.text = GameInfo[Gamenum];
-        // StartCoroutine(GetText(Gamenum));
+        GameName_Text.text = GameName[Gamenum];
+        Info_Text.text = GameInfo[Gamenum];
+        // StartCoroutine(GetText(Gamenum)); // 서버가 종료됨에 따라 순위를 보여주는 함수 비활성화
     }
     IEnumerator GetText(int i = 0)
     {
